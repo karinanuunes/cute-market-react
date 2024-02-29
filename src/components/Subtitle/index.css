@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  margin: 80px 150px;
+  /* margin: 80px 150px 50px; */
+  width: 1300px;
+  margin: 50px auto 50px auto;
 }
 
 .products-sessions {
