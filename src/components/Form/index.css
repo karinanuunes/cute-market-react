@@ -10,7 +10,7 @@ button,
 form {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   font-weight: 500;
 }
 
@@ -27,5 +27,5 @@ select {
 }
 
 select {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
