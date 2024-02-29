@@ -17,17 +17,17 @@ function App() {
       <div className="cards">
         <Card
           title="Everyday fresh & clean with our products"
-          src="https://images.vexels.com/media/users/3/295123/isolated/lists/d95cb8b88f754d47800f01844fe0717a-legumes-de-banana-kawaii.png"
-          alt="Banana Kawaii"
-          classColor="green"
-          classButtonColor="peach"
+          src="https://images.vexels.com/media/users/3/295125/isolated/lists/18401bc1719a282a86a582639cfb4df9-bagas-frutas-kawaii.png"
+          alt="Kawaii Grapes"
+          classColor="blue"
+          classButtonColor="yellow"
         />
         <Card
           title="Make your breakfast healthy and easy"
-          src="https://images.vexels.com/media/users/3/295127/isolated/lists/fbb7a506340ecbfd3e2f61d5383c13f5-legumes-de-abacate-kawaii.png"
-          alt="Abacate Kawaii"
+          src="https://images.vexels.com/media/users/3/295123/isolated/lists/d95cb8b88f754d47800f01844fe0717a-legumes-de-banana-kawaii.png"
+          alt="Kawaii Banana"
           classColor="orange"
-          classButtonColor="yellow"
+          classButtonColor="purple"
         />
       </div>
       <div className="subtitle-products">
@@ -36,7 +36,7 @@ function App() {
           <Button text="All Products" className="pink" />
           <Button text="Fruits" className="transparent" />
           <Button text="Vegetables" className="transparent" />
-          <Button text="Meats" className="transparent" />
+          <Button text="Bakery" className="transparent" />
           <Button text="Milk" className="transparent" />
         </div>
       </div>
@@ -50,6 +50,7 @@ function App() {
             stars={item.stars}
             session={item.session}
             price={item.price}
+            classColor={item.classColor}
           />
         ))}
       </div>

@@ -2,11 +2,19 @@ import PropTypes from "prop-types";
 import Button from "../Button";
 import "./index.css";
 
-const Product = ({ highlight, src, title, stars, session, price }) => {
+const Product = ({
+  highlight,
+  src,
+  title,
+  stars,
+  session,
+  price,
+  classColor,
+}) => {
   return (
     <div className="product-card">
-      <div className="product-highlight">
-        <h4>{highlight}</h4>
+      <div className={`product-highlight ${classColor}`}>
+        <h5>{highlight}</h5>
       </div>
       <div className="product-image">
         <img src={src} alt={title} />
@@ -38,7 +46,8 @@ Product.propTypes = {
   title: PropTypes.string,
   stars: PropTypes.string,
   session: PropTypes.string,
-  price: PropTypes.number,
+  price: PropTypes.string,
+  classColor: PropTypes.string,
 };
 
 export default Product;
