@@ -8,13 +8,13 @@
 }
 
 .card {
-  width: 500px;
+  width: 470px;
   height: 300px;
 
   border-radius: 15px;
   border: 1px solid #7a7a7a;
   box-shadow: 0 2px 2px #0000008a;
-  padding: 50px;
+  padding: 30px 50px;
 
   display: flex;
   flex-wrap: wrap;
