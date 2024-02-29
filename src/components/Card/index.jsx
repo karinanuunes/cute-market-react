@@ -11,7 +11,7 @@ const Card = ({ classButtonColor, classColor, title, src }) => {
       <div className="card-image">
         <img src={src} alt={title} />
       </div>
-      <Button text="Show Now" className={`shop ${classButtonColor}`} />
+      <Button text="Shop Now" className={`shop ${classButtonColor}`} />
     </div>
   );
 };
