@@ -7,7 +7,7 @@ const Form = () => {
       <form>
         <label htmlFor="name">Name:</label>
         <input type="text" />
-        <label htmlFor="birt">Birthday:</label>
+        <label htmlFor="birth">Birthday:</label>
         <input type="date" />
         <label htmlFor="country">Country:</label>
         <select name="counrty" id="contry">
@@ -16,7 +16,7 @@ const Form = () => {
           <option value="brazil">Brazil</option>
           <option value="paraguay">Paraguay</option>
         </select>
-        <Button text="Follow" className="green" />
+        <Button text="Register me" className="green" />
       </form>
     </div>
   );

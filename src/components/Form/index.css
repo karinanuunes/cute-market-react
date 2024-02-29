@@ -25,3 +25,7 @@ select {
   box-shadow: 0 2px 2px #0000008a;
   padding: 5px 15px;
 }
+
+select {
+  margin-bottom: 15px;
+}
