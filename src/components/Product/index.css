@@ -1,0 +1,26 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 50px 150px;
+}
+
+.product-card {
+  margin-bottom: 5px;
+}
+
+.product-stars {
+  margin-bottom: 10px;
+}
+.product-price-tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.product-image img {
+  width: 128px;
+  height: 128px;
+}

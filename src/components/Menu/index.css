@@ -92,6 +92,10 @@ button:hover {
   background-color: #e2a1a1;
 }
 
+.transparent {
+  background-color: transparent;
+}
+
 .kakana {
   font-size: 24px;
 }

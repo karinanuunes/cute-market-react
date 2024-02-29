@@ -3,6 +3,10 @@ import News from "./components/News";
 import Menu from "./components/Menu";
 import Emphasis from "./components/Emphasis";
 import Card from "./components/Card";
+import Product from "./components/Product";
+import list from "../src/components/Product/list.json";
+import SubTitle from "./components/Subtitle";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -25,6 +29,29 @@ function App() {
           classColor="orange"
           classButtonColor="yellow"
         />
+      </div>
+      <div className="subtitle-products">
+        <SubTitle subtitle="Farm fresh products" />
+        <div className="products-sessions">
+          <Button text="All Products" className="pink" />
+          <Button text="Fruits" className="transparent" />
+          <Button text="Vegetables" className="transparent" />
+          <Button text="Meats" className="transparent" />
+          <Button text="Milk" className="transparent" />
+        </div>
+      </div>
+      <div className="products">
+        {list.map((item, index) => (
+          <Product
+            key={index}
+            highlight={item.highlight}
+            src={item.src}
+            title={item.title}
+            stars={item.stars}
+            session={item.session}
+            price={item.price}
+          />
+        ))}
       </div>
     </>
   );

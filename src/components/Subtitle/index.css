@@ -1,0 +1,15 @@
+.subtitle-products {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 80px 150px;
+}
+
+.products-sessions {
+  display: flex;
+  gap: 5px;
+}
+
+.products-sessions button {
+  font-size: 10px;
+}
