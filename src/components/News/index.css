@@ -1,0 +1,45 @@
+.header-news {
+  background-color: #da7dbb;
+  border: 2px solid #000;
+  border-width: 2px 2px 3px 2px;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+}
+
+.header-news-p {
+  white-space: nowrap;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  position: relative;
+  animation: andar 10s linear infinite;
+}
+
+@keyframes andar {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 1006px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-news {
+    max-height: 20px;
+  }
+
+  @keyframes andar {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+}

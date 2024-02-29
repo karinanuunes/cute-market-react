@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.tiktok {
+  font-family: "Kode Mono", monospace;
+
+  background-color: #f6ea84;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 2px solid #b7f8cf;
+}
+
+.watch {
+  border-radius: 50px;
+  border: 4px solid #006a29;
+  box-shadow: 0 2px 2px #0000008a;
+  max-height: 35px;
+}
