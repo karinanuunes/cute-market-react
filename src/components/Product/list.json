@@ -4,47 +4,89 @@
     "src": "https://images.vexels.com/media/users/3/295127/isolated/lists/fbb7a506340ecbfd3e2f61d5383c13f5-legumes-de-abacate-kawaii.png",
     "session": "Fruits",
     "title": "Avocado",
-    "stars": "💚💚💚💚",
-    "price": 4.0
+    "stars": "⭐⭐⭐⭐",
+    "price": "4.50",
+    "classColor": "green"
   },
   {
     "highlight": "Hot",
     "src": "https://images.vexels.com/media/users/3/295123/isolated/lists/d95cb8b88f754d47800f01844fe0717a-legumes-de-banana-kawaii.png",
     "session": "Fruits",
     "title": "Banana",
-    "stars": "💚💚💚💚💚",
-    "price": 6.0
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "6.00",
+    "classColor": "peach"
+  },
+  {
+    "highlight": "Out of Stock",
+    "src": "https://images.vexels.com/media/users/3/295124/isolated/lists/2ef4ac09750c698e1f4922987dc0b13d-tomates-kawaii-legumes.png",
+    "session": "Vegetables",
+    "title": "Red onions",
+    "stars": "⭐⭐⭐⭐",
+    "price": "5.50",
+    "classColor": "orange"
+  },
+  {
+    "highlight": "New",
+    "src": "https://images.vexels.com/media/users/3/295122/isolated/lists/0b09ddbdccbe1ea2a2791a39ea3e5219-legumes-de-ervilhas-kawaii.png",
+    "session": "Vegetables",
+    "title": "Pea",
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "2.00",
+    "classColor": "blue"
+  },
+  {
+    "highlight": "Hot",
+    "src": "https://images.vexels.com/media/users/3/298575/isolated/lists/189539e17e12a053680681aae77732a2-copo-kawaii-para-frappe.png",
+    "session": "Milk",
+    "title": "Milkshake",
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "8.00",
+    "classColor": "peach"
+  },
+  {
+    "highlight": "Out of Stock",
+    "src": "https://images.vexels.com/media/users/3/275102/isolated/lists/366b834f0f810a16ee47dcc9df30c3dc-personagem-kawaii-de-aa-a-o-de-graa-as-de-aba-bora.png",
+    "session": "Vegetables",
+    "title": "Pumpkin",
+    "stars": "⭐⭐⭐⭐",
+    "price": "4.00",
+    "classColor": "orange"
   },
   {
     "highlight": "10% off",
-    "src": "https://images.vexels.com/media/users/3/295127/isolated/lists/fbb7a506340ecbfd3e2f61d5383c13f5-legumes-de-abacate-kawaii.png",
+    "src": "https://images.vexels.com/media/users/3/295125/isolated/lists/18401bc1719a282a86a582639cfb4df9-bagas-frutas-kawaii.png",
     "session": "Fruits",
-    "title": "Avocado",
-    "stars": "💚💚💚💚",
-    "price": 4.0
+    "title": "Grapes",
+    "stars": "⭐⭐⭐⭐",
+    "price": "7.00",
+    "classColor": "green"
   },
   {
     "highlight": "Hot",
-    "src": "https://images.vexels.com/media/users/3/295123/isolated/lists/d95cb8b88f754d47800f01844fe0717a-legumes-de-banana-kawaii.png",
-    "session": "Fruits",
-    "title": "Banana",
-    "stars": "💚💚💚💚💚",
-    "price": 6.0
+    "src": "https://images.vexels.com/media/users/3/295128/isolated/lists/9d3f296a68316d5dfa09636192c49a23-legumes-de-bra-colis-kawaii.png",
+    "session": "Vegatables",
+    "title": "Broccoli",
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "4.00",
+    "classColor": "peach"
   },
   {
     "highlight": "10% off",
-    "src": "https://images.vexels.com/media/users/3/295127/isolated/lists/fbb7a506340ecbfd3e2f61d5383c13f5-legumes-de-abacate-kawaii.png",
+    "src": "https://images.vexels.com/media/users/3/295126/isolated/lists/d5d7d06e44e811de13e906b9521bb4df-frutas-de-abacaxi-kawaii.png",
     "session": "Fruits",
-    "title": "Avocado",
-    "stars": "💚💚💚💚",
-    "price": 4.0
+    "title": "Pineapple",
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "5.50",
+    "classColor": "green"
   },
   {
-    "highlight": "Hot",
-    "src": "https://images.vexels.com/media/users/3/295123/isolated/lists/d95cb8b88f754d47800f01844fe0717a-legumes-de-banana-kawaii.png",
-    "session": "Fruits",
-    "title": "Banana",
-    "stars": "💚💚💚💚💚",
-    "price": 6.0
+    "highlight": "New",
+    "src": "https://images.vexels.com/media/users/3/275104/isolated/lists/aed23c004451fcb93b2cd663ae19ab12-pa-o-kawaii-de-aa-a-o-de-graa-as.png",
+    "session": "Bakery",
+    "title": "Bread",
+    "stars": "⭐⭐⭐⭐⭐",
+    "price": "0.50",
+    "classColor": "blue"
   }
 ]
