@@ -1,0 +1,26 @@
+.banner {
+  width: 800px;
+  margin: 50px auto 50px auto;
+  border-radius: 15px;
+  border: 1px solid #7a7a7a;
+  box-shadow: 0 2px 2px #0000008a;
+  padding: 30px 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 0.2s ease-in-out;
+}
+
+.banner:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.banner-title {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+}

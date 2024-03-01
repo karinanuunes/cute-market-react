@@ -14,7 +14,7 @@ const Menu = () => {
       <div className="menu-options">
         <Button text="Shopping" className="orange" onClick={goHome} />
         <Button text="About Us" className="yellow" onClick={goHome} />
-        <Button text="Contact" className="purple" onClick={goHome} />
+        <Button text="Delivery" className="purple" onClick={goHome} />
         <Button text="Location" className="peach" onClick={goHome} />
         <Button text="Recycle" className="green" onClick={goHome} />
         <Button text="Sale" className="blue" onClick={goHome} />
