@@ -9,7 +9,11 @@ const Menu = () => {
   return (
     <div className="menu">
       <div className="menu-home">
-        <Button text="Kakana" className="mustard kakana" onClick={goHome} />
+        <Button
+          text="Cute Market 🌺"
+          className="mustard kakana"
+          onClick={goHome}
+        />
       </div>
       <div className="menu-options">
         <Button text="Shopping" className="orange" onClick={goHome} />
