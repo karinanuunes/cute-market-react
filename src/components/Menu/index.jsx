@@ -1,9 +1,12 @@
 import Button from "../Button";
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 const Menu = () => {
+  const navigate = useNavigate();
+
   const goHome = () => {
-    console.log("Fui");
+    navigate("/");
   };
 
   return (
