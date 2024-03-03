@@ -26,6 +26,17 @@ select {
   padding: 5px 15px;
 }
 
+input:focus,
+select:focus {
+  border: 1px solid #7a7a7a;
+  outline: 1px solid #7a7a7a;
+}
+
 select {
   margin-bottom: 20px;
+}
+
+.error-msg {
+  font-size: 12px;
+  margin: 3px 0 0;
 }
