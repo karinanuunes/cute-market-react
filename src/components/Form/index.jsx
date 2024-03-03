@@ -40,6 +40,7 @@ const Form = () => {
         {errors.country && (
           <span className="error-msg">This field is required</span>
         )}
+        <br />
         <Button text="Register me" className="green" type="submit" />
       </form>
     </div>

@@ -32,10 +32,6 @@ select:focus {
   outline: 1px solid #7a7a7a;
 }
 
-select {
-  margin-bottom: 20px;
-}
-
 .error-msg {
   font-size: 12px;
   margin: 3px 0 0;
