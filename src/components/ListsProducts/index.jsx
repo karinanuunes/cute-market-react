@@ -16,6 +16,13 @@ const ListsProducts = () => {
     }
   };
 
+  const [shopping, setShopping] = useState(0);
+
+  const handleShopping = () => {
+    setShopping(shopping + 1);
+    console.log("Clicou: " + shopping);
+  };
+
   return (
     <>
       <div className="subtitle-products">
@@ -59,6 +66,7 @@ const ListsProducts = () => {
             session={item.session}
             price={item.price}
             classColor={item.classColor}
+            handleShopping={handleShopping}
           />
         ))}
       </div>

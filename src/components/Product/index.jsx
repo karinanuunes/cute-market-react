@@ -10,6 +10,7 @@ const Product = ({
   session,
   price,
   classColor,
+  handleShopping,
 }) => {
   return (
     <div className="product-card">
@@ -33,7 +34,7 @@ const Product = ({
           <h3>$ {price}</h3>
         </div>
         <div className="product-buy-button">
-          <Button text="Buy" className="green" />
+          <Button text="Buy" className="green" onClick={handleShopping} />
         </div>
       </div>
     </div>
@@ -48,6 +49,7 @@ Product.propTypes = {
   session: PropTypes.string,
   price: PropTypes.string,
   classColor: PropTypes.string,
+  handleShopping: PropTypes.func,
 };
 
 export default Product;
