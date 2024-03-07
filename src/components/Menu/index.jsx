@@ -13,6 +13,10 @@ const Menu = () => {
     navigate("/about");
   };
 
+  const goCheckList = () => {
+    navigate("/checklist");
+  };
+
   return (
     <div className="menu">
       <div className="menu-home">
@@ -28,7 +32,7 @@ const Menu = () => {
         <Button text="Delivery" className="purple" onClick={goHome} />
         <Button text="Location" className="peach" onClick={goHome} />
         <Button text="Recycle" className="green" onClick={goHome} />
-        <Button text="Sale" className="blue" onClick={goHome} />
+        <Button text="Check List" className="blue" onClick={goCheckList} />
         <Button text="Cart" className="pink" onClick={goHome} />
       </div>
     </div>

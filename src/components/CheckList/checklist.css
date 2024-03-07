@@ -1,0 +1,27 @@
+.checklist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.checklist-input {
+  display: flex;
+  gap: 10px;
+}
+
+.checklist-input input {
+  width: 250px;
+}
+
+.checklist-items {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  width: 370px;
+  margin: 20px;
+  text-align: left;
+}
