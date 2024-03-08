@@ -35,3 +35,7 @@
   justify-content: flex-start;
   gap: 15px;
 }
+
+.card {
+  height: auto;
+}
