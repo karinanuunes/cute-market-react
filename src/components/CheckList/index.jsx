@@ -30,9 +30,12 @@ const CheckList = () => {
 
   return (
     <div className="checklist">
-      <div className="card pink checklist-client">
-        <SubTitle subtitle="CheckList" />
-        <p>Make a checklist of what you need</p>
+      <div className="card white checklist-client">
+        <SubTitle subtitle="CheckList ☑️" />
+        <p>
+          Enter the items you need and click on which ones you have already
+          purchased
+        </p>
         <div className="checklist-input">
           <input
             type="text"
@@ -44,7 +47,7 @@ const CheckList = () => {
               dispatch({ type: "add-items", payload: inputValue });
               setInputValue("");
             }}
-            className="blue"
+            className="peach"
             text="Add items"
           />
         </div>
@@ -56,6 +59,7 @@ const CheckList = () => {
                 onClick={() => dispatch({ type: "risk-items", payload: index })}
                 style={{
                   textDecoration: task.isCompleted ? "line-through" : "none",
+                  margin: "5px auto",
                 }}
               >
                 {task.name}
@@ -65,10 +69,12 @@ const CheckList = () => {
         </div>
       </div>
       <div className="card yellow checklist-card">
-        <SubTitle subtitle="CheckList Ideas" />
+        <SubTitle subtitle="CheckList Ideas 📌" />
         <ul>
           {list.map((product, id) => (
-            <li key={id}>{product.title}</li>
+            <li style={{ margin: "5px auto" }} key={id}>
+              {product.title}
+            </li>
           ))}
         </ul>
       </div>

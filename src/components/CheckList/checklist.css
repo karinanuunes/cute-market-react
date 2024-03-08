@@ -1,7 +1,7 @@
 .checklist {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 200px;
   gap: 50px;
 }
@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 5px;
+  gap: 10px;
+  height: auto;
 }
 
 .checklist-input {
@@ -24,7 +25,7 @@
 
 .checklist-items {
   width: 370px;
-  margin: 20px;
+  margin: 10px 20px;
   text-align: left;
 }
 
@@ -34,8 +35,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 15px;
+  width: auto;
 }
 
-.card {
-  height: auto;
+.white {
+  background-color: white;
 }
