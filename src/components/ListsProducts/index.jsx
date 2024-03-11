@@ -24,7 +24,7 @@ const ListsProducts = () => {
   };
 
   return (
-    <>
+    <div className="list-products">
       <div className="subtitle-products">
         <SubTitle subtitle="🥗Farm fresh products" />
         <div className="products-sessions">
@@ -70,7 +70,7 @@ const ListsProducts = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

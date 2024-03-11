@@ -2,9 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* gap: 40px; */
-  width: 400px;
-  height: 300px;
+  gap: 40px;
+  width: 540px;
+  height: auto;
   padding: 35px;
   border-radius: 15px;
   border: 1px solid #8e8e8e;

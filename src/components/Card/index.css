@@ -1,15 +1,14 @@
 .cards {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  gap: 50px;
-  margin: 50px auto 50px auto;
-  width: 1500px;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 50px;
 }
 
 .card {
-  width: 470px;
-  height: 300px;
+  width: 560px;
+  /* height: 300px; */
 
   border-radius: 15px;
   border: 1px solid #7a7a7a;
@@ -34,4 +33,11 @@
 
 .shop {
   font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }

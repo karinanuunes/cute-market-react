@@ -29,17 +29,13 @@
   }
 }
 
-@media (max-width: 1000px) {
-  .header-news {
-    max-height: 20px;
-  }
-
-  @keyframes andar {
+@media (max-width: 800px) {
+  /* @keyframes andar {
     0% {
       left: 0;
     }
     100% {
       left: 100%;
     }
-  }
+  } */
 }

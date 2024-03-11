@@ -1,7 +1,11 @@
 .menu {
   display: flex;
   justify-content: space-around;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   padding: 30px 100px;
+  gap: 20px;
 }
 
 .menu-options {
@@ -103,17 +107,12 @@ button:hover {
   font-size: 24px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1080px) {
   .menu {
-    padding: 30px 50px;
+    padding: 20px auto;
   }
-  .menu-options {
-    padding: 0 20px;
-  }
-}
 
-@media (max-width: 1000px) {
-  .menu {
-    padding: 30px 30px;
+  .menu-options {
+    flex-wrap: nowrap;
   }
 }
