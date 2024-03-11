@@ -4,7 +4,7 @@ import "./index.css";
 
 const Delivery = ({ title, src }) => {
   return (
-    <div className="banner purple">
+    <div className="banner">
       <div className="banner-title">
         <h1>{title}</h1>
         <Button text="Order Now" className="yellow" />
