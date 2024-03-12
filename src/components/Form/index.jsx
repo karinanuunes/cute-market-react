@@ -7,9 +7,13 @@ const Form = () => {
     handleSubmit,
     register,
     formState: { errors },
+    reset,
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    reset();
+  };
 
   return (
     <div className="form">
