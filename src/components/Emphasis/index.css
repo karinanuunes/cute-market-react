@@ -49,6 +49,7 @@ h1 {
 @media (max-width: 1080px) {
   .emphasis {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 20px;
   }

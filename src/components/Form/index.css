@@ -10,7 +10,7 @@ button,
 form {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 8px;
   font-weight: 500;
 }
 
@@ -23,7 +23,7 @@ select {
   border: 1px solid #7a7a7a;
   border-radius: 10px;
   box-shadow: 0 2px 2px #0000008a;
-  padding: 5px 15px;
+  padding: 7px 14px;
 }
 
 input:focus,
@@ -34,5 +34,10 @@ select:focus {
 
 .error-msg {
   font-size: 12px;
-  margin: 3px 0 0;
+  margin: 2px 0 0;
+  color: #242424;
+}
+
+.form button {
+  margin-top: 10px;
 }

@@ -109,10 +109,31 @@ button:hover {
 
 @media (max-width: 1080px) {
   .menu {
-    padding: 20px auto;
+    /* padding: 20px auto; */
+    padding: 60px 20px;
+    justify-content: flex-start;
+    position: absolute;
+  }
+
+  .menu-home {
+    display: none;
   }
 
   .menu-options {
     flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-options button {
+    font-size: 0;
+    transition: font-size 0.3s;
+  }
+
+  .menu-options button:focus,
+  .menu-options button:hover {
+    font-size: 12px;
   }
 }
