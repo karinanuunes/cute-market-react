@@ -20,7 +20,8 @@ const ListsProducts = () => {
 
   const handleShopping = () => {
     setShopping(shopping + 1);
-    console.log("Clicou: " + shopping);
+    console.log("Test: " + shopping);
+    alert("Sorry, the market is closed now");
   };
 
   return (
