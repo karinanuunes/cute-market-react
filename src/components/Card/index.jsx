@@ -8,8 +8,8 @@ const Card = ({ classButtonColor, classColor, title, src }) => {
       <div className="card-title">
         <h3>{title}</h3>
       </div>
-      <div className="card-image">
-        <img src={src} alt={title} />
+      <div className="card-img">
+        <img src={src} alt={title} className="card-image" />
       </div>
       <Button text="Shop Now" className={`shop ${classButtonColor}`} />
     </div>

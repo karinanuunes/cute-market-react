@@ -41,3 +41,8 @@
   margin: 0 30px 15px 30px;
   text-align: center;
 }
+
+.list-products {
+  display: flex;
+  justify-content: center;
+}

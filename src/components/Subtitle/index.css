@@ -22,10 +22,12 @@
 }
 
 @media (max-width: 1280px) {
-  .subtitle-products {
-    flex-direction: column;
+  .subtitle-products,
+  .products-sessions {
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 }
 
